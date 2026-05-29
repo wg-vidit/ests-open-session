@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Subterranean Homesick Blues" Print Version plus Apparatus Transcription</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <l><app><lem>Get</lem><rdg wit="typescript">get</rdg></app> sick<app><lem>,</lem><rdg wit="typescript"> /</rdg></app> get well<app><lem/><rdg wit="typescript">/</rdg></app></l>
+         <l><app><lem>Hang</lem><rdg wit="typescript">hang</rdg></app> around <app><lem>a</lem><rdg wit="typescript">the</rdg></app> ink well</l>
+         <l><app><lem>Ring</lem><rdg wit="typescript">ring</rdg></app> bell<app><lem>,</lem><rdg wit="typescript">/</rdg></app> hard <app><lem>to</lem><rdg wit="typescript">t</rdg></app> tell</l>
+         <l><app><lem>If</lem><rdg wit="typescript">if</rdg></app> anything is <app><lem>goin' to</lem><rdg wit="typescript">gonna</rdg></app> sell</l>
+         <l><app><lem>Try</lem><rdg wit="typescript">try</rdg></app> hard<app><lem>,</lem><rdg wit="typescript">/</rdg></app> get barred<app><lem/><rdg wit="typescript">/</rdg></app></l>
+         <l><app><lem>Get</lem><rdg wit="typescript">get</rdg></app> back<app><lem>,</lem><rdg wit="typescript">/</rdg></app> <app><lem>write braille</lem><rdg wit="typescript">get stale</rdg></app></l>
+         <l><app><lem>Get jailed,</lem><rdg wit="typescript">get nailed/</rdg></app> jump bail</l>
+         <l><app><lem>Join</lem><rdg wit="typescript">join</rdg></app> the army<app><lem>,</lem><rdg/></app> if you fail</l>
+         <l><app><lem>Look</lem><rdg wit="typescript">look</rdg></app> out kid</l>
+         <l><app><lem>You're</lem><rdg wit="typescript">you</rdg></app> gonna get hit</l>
+         <l><app><lem>But users, cheaters</lem><rdg wit="typescript">by teachers, preacher,</rdg></app></l>
+         <l><app><lem>Six-time</lem><rdg wit="typescript">6time</rdg></app> losers</l>
+         <l><app><lem>Hang</lem><rdg wit="typescript">hanging</rdg></app> <app><lem>around</lem><rdg wit="typescript">round</rdg></app> <app><lem>the theaters</lem><rdg wit="typescript">threatres</rdg></app></l>
+         <l>Girl by the whirlpool</l>
+         <l>Lookin' for a new fool</l>
+         <l>Don't follow leaders</l>
+         <l>Watch the parkin' meters</l>         
+      </body>
+  </text>
+</TEI>
