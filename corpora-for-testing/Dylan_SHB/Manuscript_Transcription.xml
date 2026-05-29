@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Subterranean Homesick Blues" Manuscript Transcription</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head>3.</head> <l>Get sick get well</l>
+            <l>Hang around the <subst>
+               <del rend="strikethrough">oil smell</del>
+               <add place="above">inkwell</add>
+               <add place="above"><supplied>ink </supplied>well</add>
+               </subst> <add place="above" rend="underline">Hotel</add></l>
+            <l>Ring bell hard to tell</l>
+            <l>If anything is gonna sell <add place="margin" rend="underline">smell</add></l>
+            <l>Try hard get barred</l>
+            <l>Get back, <subst>
+                  <del rend="crossed-out"><unclear unit="words" quantity="3"/></del>
+                  <add place="above">write braille</add>
+            </subst></l>
+            <l>Get jailed, Jump bail</l>
+            <l>Join the Army if you fail</l>
+            <l>Look out <del rend="crossed-out">Joe</del> kid</l>
+            <l>You’re gonna get hit</l>
+            <l>By users, cheaters</l>
+            <l>Six time losers</l>
+            <l>Hanging round the theatres</l>
+            <l>Girl by the whirlpool</l>
+            <l>Looking for a new fool <add place="above">going at night school</add></l>
+            <l>Don’t follow leaders</l>
+            <l>Watch the parking meters</l>            
+      </body>
+  </text>
+</TEI>

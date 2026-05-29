@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/dop_tei.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Duke of Parma</title>
+                <author>Fernando Pessoa</author>
+                <sponsor>
+                    <orgName>Università degli Studi di Parma</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>Università degli Studi di Parma
+                        (FIL_2023_PROGETTI_A_MARTINES)</orgName>
+                </funder>
+                <principal ref="prj:EM">Enrico Martines</principal>
+                <respStmt>
+                    <resp>Genetic Edition</resp>
+                    <persName ref="prj:NB">Nicolás Barbosa</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edition revision</resp>
+                    <persName ref="prj:JP">Jerónimo Pizarro</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Analysis of script materials and dimensions</resp>
+                    <persName ref="prj:CD">Carlotta Defenu</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Text Encoding</resp>
+                    <persName ref="prj:EL">Elena Lombardo</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Text Encoding revision</resp>
+                    <persName ref="prj:EL">Elena Lombardo</persName>
+                    <persName ref="prj:CD">Carlotta Defenu</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName>Dipartimento di Discipline Umanistiche, Sociali e
+                        delle Imprese Culturali dell' <orgName>Università degli Studi
+                            di Parma</orgName></orgName></publisher>
+                <pubPlace>
+                    <settlement type="city">Parma</settlement>
+                </pubPlace>
+                <date when="2026">2026</date>
+                <availability status="restricted">
+                    <p>Creative Commons - Atribuição-NãoComercial 4.0 Internacional.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno xml:id="ESP-E3-114D-fol.88r-88v">BNP, Esp. E3, 11-4-D, fol. 88r-88v</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p><locus n="88r">Fol. 88r</locus> contains text related to "The Duke of Parma". <locus n="88v">Fol. 88v</locus> is blank.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Fragment of laid blueish paper, with irregular right and upper margins.</material>
+                                </support>
+                                <extent>1 leaf <dimensions unit="mm">
+                                        <height>103</height>
+                                        <width>125</width>
+                                </dimensions>
+                                </extent>
+                                <condition>Well preserved.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="12"><p>On <locus n="88r">fol. 88r</locus>, the text is arranged in a single column. Six lines are written in black ink; an additional three lines appear in graphite pencil at the top of the page, while three more lines, written in blue ink and graphite pencil, are found at the bottom.
+                                        <locus n="88v">Fol. 88v</locus> is blank.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote medium="blackInk" sameAs="hnd:FP-blackInkHandwriting">Fernando Pessoa's
+                                handwriting in a black ink.</handNote>
+                            <handNote medium="graphitePencil" sameAs="hnd:FP-graphitePencilHandwriting">Fernando Pessoa's
+                                handwriting in graphite pencil.</handNote>
+                            <handNote medium="blueInk" sameAs="hnd:FP-blueInkHandwriting">Fernando Pessoa's
+                                handwriting in a blue ink.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="prj"
+                    matchPattern="([A-Z]{2,3})"
+                    replacementPattern="dop-main.xml#$1">
+                    <p>In the context of this project, private URIs with the prefix
+                        "prj" point to <gi>persName</gi> elements defined within <gi>respStmt</gi> elements of the dop-main.xml file.</p>
+                </prefixDef>
+                <prefixDef ident="psn"
+                    matchPattern="([A-Z][0-9]{0,2})"
+                    replacementPattern="dop-main.xml#$1">
+                    <p> In the context of this project, private URIs with the prefix
+                        "psn" point to <gi>person</gi> elements defined in the <gi>particDesc</gi> element in the dop-main.xml file.
+                    </p>
+                </prefixDef>
+                <prefixDef ident="hnd"
+                    matchPattern="([A-Za-z0-9]+)"
+                    replacementPattern="dop-main.xml#$1">
+                    <p> In the context of this project, private URIs with the prefix
+                        "hnd" point to <gi>handNote</gi> or <gi>typeNote</gi> elements defined within the <gi>handDesc</gi> and <gi>typeDesc</gi> elements of the dop-main.xml file.
+                    </p>
+                </prefixDef> 
+                <prefixDef ident="str" matchPattern="(Act[1-5](Scene[0-9]+)?)" replacementPattern="dop-main.xml#$1"><p> In the context of this project, private URIs with the prefix "str" point to to structural <gi>item</gi> elements (acts and scenes) defined within the <gi>settindDesc</gi> element in the dop-main.xml file.</p></prefixDef><prefixDef ident="plc" matchPattern="([A-Z][A-Za-z]*(?:-[A-Za-z]+)*)" replacementPattern="#$1"><p> In the context of this project, private URIs with the prefix "plc" point to <gi>placeName</gi> elements defined in the <gi>settingDesc</gi> element in the dop-main.xml file.</p></prefixDef></listPrefixDef>
+        </encodingDesc>
+        <revisionDesc>
+            <change type="last" when="2025" who="#EL">Elena Lombardo: Text encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface ulx="0" uly="0" lrx="1500" lry="1234">
+            <zone xml:id="_114D-88r" ulx="0" uly="0" lrx="1500" lry="1234">
+                <graphic url="data/images/single/bn-acpc-e-e3-11-4-d-1-100_0180_88_t24-C-R0150.jpg"/>
+            </zone>
+            <zone xml:id="_114D-88r-column" ulx="32" uly="94" lrx="1397" lry="1229"/>
+            <zone xml:id="_114D-88r-graphiteAdd" ulx="140" uly="140" lrx="1385" lry="531"/>
+            <zone xml:id="_114D-88r-blackText" ulx="30" uly="274" lrx="1429" lry="849"/>
+            <zone xml:id="_114D-88r-blueAdd" ulx="24" uly="882" lrx="1277" lry="1013"/>
+            <zone xml:id="_114D-88r-graphiteAdd2" ulx="24" uly="1014" lrx="1277" lry="1225"/>
+        </surface>
+        <surface ulx="0" uly="0" lrx="1499" lry="1237">
+            <zone xml:id="_114D-88v" ulx="0" uly="0" lrx="1499" lry="1237">
+                <graphic url="data/images/single/bn-acpc-e-e3-11-4-d-1-100_0181_88v_t24-C-R0150.jpg"/>
+            </zone>
+        </surface>
+    </facsimile>
+    <text>
+        <front>
+            <head>Document description</head>
+            <p>
+                <list>
+                    <item><hi rend="bold">Repository:</hi> Biblioteca Nacional de Portugal (BNP)</item>
+                    <item><hi rend="bold">Shelfmark:</hi> Esp. E3, 11-4-D, fls. 88r–88v</item>
+                    <item><hi rend="bold">Support and Material:</hi> Fragment of laid bluish paper with irregular right and upper margins.</item>
+                    <item><hi rend="bold">Extent:</hi> 1 leaf</item>
+                    <item><hi rend="bold">Dimensions:</hi> 103 × 125 mm</item>
+                    <item><hi rend="bold">State of Preservation:</hi> Well preserved.</item>
+                    <item><hi rend="bold">Layout (<hi rend="italics">mise en page</hi>):</hi> Fol. 88r: single column; six lines in black ink, three additional lines in pencil at the top of the page, and three further lines at the bottom written in blue ink and pencil. Fol. 88v: blank.</item>
+                    <item><hi rend="bold">Hands:</hi> Fernando Pessoa's handwriting in black ink, graphite pencil, and blue ink.</item>
+                    <item><hi rend="bold">Contents:</hi> Fol. 88r contains text related to <hi rend="italics">The Duke of Parma</hi>; fol. 88v is blank.</item>
+                </list>
+            </p>
+        </front>
+        <body>
+            <pb n="11-4-D-88r" facs="data/images/single/bn-acpc-e-e3-11-4-d-1-100_0180_88_t24-C-R0150.jpg"/>
+            <div type="textColumn" facs="#_114D-88r-column">                
+                <ab><del hand="hnd:FP-blackInkHandwriting" rend="strikethrough">King <seg xml:id="seg_114D-88-1" rend="hesitationMark">Laertes</seg>.</del></ab>
+                <metamark function="doubt" target="#seg_114D-88-1"/>
+                <lb/><metamark function="separation" rend="halfRule">___</metamark>
+                <div type="addition" facs="#_114D-88r-graphiteAdd">
+                    <sp who="psn:D1" cert="medium">
+                    <ab>
+                        <lb/><add hand="hnd:FP-graphitePencilHandwriting" place="above">How does a bitch cry when 
+                            <lb/><unclear cert="low">bowed</unclear> <unclear cert="low">low</unclear>?</add>
+                    </ab>
+                </sp>
+                    <sp>
+                        <ab>
+                            <lb/><add hand="hnd:FP-graphitePencilHandwriting" place="above">— I know <unclear cert="medium">not</unclear> my lord —
+                                <lb/>Whatever cry it does.</add>
+                        </ab>
+                    </sp>
+                </div>
+                <div type="text" facs="#_114D-88r-blackText">
+                    <sp who="psn:D1">
+                        <speaker><add hand="hnd:FP-blueInkHandwriting" place="left"><persName ref="psn:D1">D</persName></add> —</speaker>
+                        <ab>
+                            <add hand="hnd:FP-blackInkHandwriting" place="above"><hi rend="circled">Bitch</hi></add>Faugh! Our mothers cried thus
+                            <lb/>when we were conceived. <hi rend="boxed">But</hi>
+                            <lb/>what would respect be if these
+                            <lb/>things were thought on?
+                        </ab>
+                    </sp>
+                </div>
+                <div type="addition" facs="#_114D-88r-blueAdd">
+                    <sp>
+                        <ab><add hand="hnd:FP-blueInkHandwriting" place="inline">— This is naked language, my lord.</add></ab>
+                    </sp>
+                </div>
+                <div type="addition" facs="#_114D-88r-graphiteAdd2">
+                    <sp who="psn:D1" cert="medium">
+                        <ab>
+                            <add hand="hnd:FP-graphitePencilHandwriting" place="inline">— Ay so are we by nature. And
+                            <lb/>have many known it?</add>
+                        </ab>
+                    </sp>
+                </div>
+            </div>
+            <pb n="11-4-D-88v" facs="data/images/single/bn-acpc-e-e3-11-4-d-1-100_0181_88v_t24-C-R0150.jpg"/>
+        </body>
+    </text>
+</TEI>

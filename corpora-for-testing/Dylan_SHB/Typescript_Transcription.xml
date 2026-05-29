@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Subterranean Homesick Blues" Typescript Transcription</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <l>get sick / get well/ hang around the ink well</l>
+         <l>ring bell/ hard t tell if anything is gonna sell</l>
+         <l>try hard/ get barred/ get back/ get stale</l>
+         <l><del rend="overwritten">jump</del> get nailed/ jump bail</l>
+         <l>join the army if you fail</l>
+         <l>look out kid you gonna get hit</l>
+         <l>by teachers, preacher, 6time lo<del rend="overwritten">v</del><add>s</add>ers hanging round threatres</l>               
+      </body>
+  </text>
+</TEI>
