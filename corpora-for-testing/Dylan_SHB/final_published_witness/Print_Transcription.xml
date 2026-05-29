@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <p><lb/>Get sick, get well
+         <div type="page" n="1"><p><lb/>Get sick, get well
          <lb/>Hang around a ink well
          <lb/>Ring bell, hard to tell
          <lb/>If anything is goin' to sell
@@ -34,7 +34,7 @@
          <lb/>Girl by the whirlpool
          <lb/>Lookin' for a new fool
          <lb/>Don't follow leaders
-         <lb/>Watch the parkin' meters  </p>       
+         <lb/>Watch the parkin' meters  </p></div>       
       </body>
   </text>
 </TEI>

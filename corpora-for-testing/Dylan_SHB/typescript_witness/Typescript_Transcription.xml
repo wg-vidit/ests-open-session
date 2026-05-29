@@ -18,11 +18,11 @@
    </teiHeader>
    <text>
       <body>
-         <p><lb/>get sick / get well/ hang around the ink well <lb/>ring bell/ hard t tell if
+         <div type="page" n="1"><p><lb/>get sick / get well/ hang around the ink well <lb/>ring bell/ hard t tell if
             anything is gonna sell <lb/>try hard/ get barred/ get back/ get stale <lb/><del
                rend="overwritten">jump</del> get nailed/ jump bail <lb/>join the army if you fail
             <lb/>look out kid you gonna get hit <lb/>by teachers, preacher, 6time lo<del
-               rend="overwritten">v</del><add>s</add>ers hanging round threatres </p>
+               rend="overwritten">v</del><add>s</add>ers hanging round threatres </p></div>
       </body>
    </text>
 </TEI>

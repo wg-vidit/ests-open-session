@@ -18,19 +18,18 @@
   </teiHeader>
   <text>
       <body>
-         <head>3.</head> <p><lb/>Get sick get well
-            <lb/>Hang around the <subst>
+         <head>3.</head> <div type="page" n="1"><p><lb/>Get sick get well
+            <lb/>Hang around the 
                <del rend="strikethrough">oil smell</del>
                <add place="above">inkwell</add>
                <add place="above"><supplied>ink </supplied>well</add>
-               </subst> <add place="above" rend="underline">Hotel</add>
+                <add place="above" rend="underline">Hotel</add>
             <lb/>Ring bell hard to tell
             <lb/>If anything is gonna sell <add place="margin" rend="underline">smell</add>
             <lb/>Try hard get barred
-            <lb/>Get back, <subst>
+            <lb/>Get back, 
                   <del rend="crossed-out"><unclear unit="words" quantity="3"/></del>
                   <add place="above">write braille</add>
-            </subst>
             <lb/>Get jailed, Jump bail
             <lb/>Join the Army if you fail
             <lb/>Look out <del rend="crossed-out">Joe</del> kid
@@ -41,7 +40,7 @@
             <lb/>Girl by the whirlpool
             <lb/>Looking for a new fool <add place="above">going at night school</add>
             <lb/>Don’t follow leaders
-            <lb/>Watch the parking meters</p>         
+            <lb/>Watch the parking meters</p></div>         
       </body>
   </text>
 </TEI>
