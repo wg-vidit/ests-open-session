@@ -18,23 +18,23 @@
   </teiHeader>
   <text>
       <body>
-         <l>Get sick, get well</l>
-         <l>Hang around a ink well</l>
-         <l>Ring bell, hard to tell</l>
-         <l>If anything is goin' to sell</l>
-         <l>Try hard, get barred</l>
-         <l>Get back, write braille</l>
-         <l>Get jailed, jump bail</l>
-         <l>Join the army, if you fail</l>
-         <l>Look out kid</l>
-         <l>You're gonna get hit</l>
-         <l>But users, cheaters</l>
-         <l>Six-time losers</l>
-         <l>Hang around the theaters</l>
-         <l>Girl by the whirlpool</l>
-         <l>Lookin' for a new fool</l>
-         <l>Don't follow leaders</l>
-         <l>Watch the parkin' meters</l>         
+         <p><lb/>Get sick, get well
+         <lb/>Hang around a ink well
+         <lb/>Ring bell, hard to tell
+         <lb/>If anything is goin' to sell
+         <lb/>Try hard, get barred
+         <lb/>Get back, write braille
+         <lb/>Get jailed, jump bail
+         <lb/>Join the army, if you fail
+         <lb/>Look out kid
+         <lb/>You're gonna get hit
+         <lb/>But users, cheaters
+         <lb/>Six-time losers
+         <lb/>Hang around the theaters
+         <lb/>Girl by the whirlpool
+         <lb/>Lookin' for a new fool
+         <lb/>Don't follow leaders
+         <lb/>Watch the parkin' meters  </p>       
       </body>
   </text>
 </TEI>

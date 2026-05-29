@@ -18,30 +18,30 @@
   </teiHeader>
   <text>
       <body>
-         <head>3.</head> <l>Get sick get well</l>
-            <l>Hang around the <subst>
+         <head>3.</head> <p><lb/>Get sick get well
+            <lb/>Hang around the <subst>
                <del rend="strikethrough">oil smell</del>
                <add place="above">inkwell</add>
                <add place="above"><supplied>ink </supplied>well</add>
-               </subst> <add place="above" rend="underline">Hotel</add></l>
-            <l>Ring bell hard to tell</l>
-            <l>If anything is gonna sell <add place="margin" rend="underline">smell</add></l>
-            <l>Try hard get barred</l>
-            <l>Get back, <subst>
+               </subst> <add place="above" rend="underline">Hotel</add>
+            <lb/>Ring bell hard to tell
+            <lb/>If anything is gonna sell <add place="margin" rend="underline">smell</add>
+            <lb/>Try hard get barred
+            <lb/>Get back, <subst>
                   <del rend="crossed-out"><unclear unit="words" quantity="3"/></del>
                   <add place="above">write braille</add>
-            </subst></l>
-            <l>Get jailed, Jump bail</l>
-            <l>Join the Army if you fail</l>
-            <l>Look out <del rend="crossed-out">Joe</del> kid</l>
-            <l>You’re gonna get hit</l>
-            <l>By users, cheaters</l>
-            <l>Six time losers</l>
-            <l>Hanging round the theatres</l>
-            <l>Girl by the whirlpool</l>
-            <l>Looking for a new fool <add place="above">going at night school</add></l>
-            <l>Don’t follow leaders</l>
-            <l>Watch the parking meters</l>            
+            </subst>
+            <lb/>Get jailed, Jump bail
+            <lb/>Join the Army if you fail
+            <lb/>Look out <del rend="crossed-out">Joe</del> kid
+            <lb/>You’re gonna get hit
+            <lb/>By users, cheaters
+            <lb/>Six time losers
+            <lb/>Hanging round the theatres
+            <lb/>Girl by the whirlpool
+            <lb/>Looking for a new fool <add place="above">going at night school</add>
+            <lb/>Don’t follow leaders
+            <lb/>Watch the parking meters</p>         
       </body>
   </text>
 </TEI>
